@@ -1,4 +1,5 @@
 Week 2 – Enterprise Infrastructure Planning
+
 Course: ITEP 414 – System Administration and Maintenance
 Program: Bachelor of Science in Information Technology
 Section: BSIT-4E
@@ -6,144 +7,154 @@ Student: Lueruang, Brian S.
 Week: 2
 
 Project Overview
-For this week's activity, I created an IT infrastructure plan for a fictional startup company called ABC Startup Solutions.
 
-The company has 20 employees working in four departments: Information Technology, Human Resources, Finance, and Sales. The goal of this activity was to plan the company's IT infrastructure before any equipment is purchased or installed.
+For this week's activity, I developed an IT infrastructure plan for a fictional startup company called ABC Startup Solutions.
+
+The company has 20 employees divided into four departments: Information Technology, Human Resources, Finance, and Sales. The main goal of this activity is to plan the company's IT infrastructure before purchasing, installing, and configuring any equipment.
 
 The project covers the company profile, hardware and software requirements, network infrastructure, network topology, system administration roles, security recommendations, backup strategy, and future expansion.
 
 Learning Objectives
+
 Through this activity, I learned how to:
 
 Analyze the IT requirements of a small organization.
+
 Prepare hardware, software, and network inventories.
-Plan an enterprise network topology.
-Understand the different roles of system administrators.
+
+Plan an appropriate enterprise network topology.
+
+Understand the different roles and responsibilities of system administrators.
+
 Create technical documentation using Markdown.
-Consider security, backup, and future expansion when planning an IT infrastructure.
-Organize technical information in a professional way.
+
+Apply basic security practices when planning an IT infrastructure.
+
+Develop a backup and recovery strategy for important company data.
+
+Consider security, reliability, and future expansion when designing an IT infrastructure.
+
+Organize technical information in a clear and professional manner.
+
+
 Company Scenario
+
 ABC Startup Solutions
+
 ABC Startup Solutions is a fictional software development company located in Santa Cruz, Laguna, Philippines.
 
-The company has a total of 20 employees and occupies a single office floor.
+The company has a total of 20 employees and operates on a single office floor. The employees are distributed among four departments:
 
-Department	Employees
-Information Technology	5
-Human Resources	4
-Finance	5
-Sales	6
-Total	20
-The company is starting from scratch and currently has no computers, server, network, internet infrastructure, or security policies.
+Information Technology: 5 employees
 
-Because of this, an infrastructure plan is needed before purchasing and installing the required equipment.
+Human Resources: 4 employees
+
+Finance: 5 employees
+
+Sales: 6 employees
+
+Total: 20 employees
+
+
+The company is starting from scratch and currently has no computers, servers, network equipment, internet infrastructure, or formal security policies.
+
+Because of this, an IT infrastructure plan is needed before purchasing and installing the required equipment. This plan will help the company establish a reliable, secure, and organized IT environment that can support its daily operations and future growth.
 
 Hardware Inventory Summary
+
 The proposed hardware was selected based on the company's 20 employees and its expected IT requirements.
 
-Hardware	Quantity	Purposes
-Desktop Computers	20	Main workstation for each employee
-Business Laptops	5	IT administration, troubleshooting, and mobility
-Server	1	Centralized services and internal workloads
-Router	1	Network routing and internet connectivity
-Managed Switch	1	Wired network connectivity
-Network Printers	2	Shared printing
-UPS	4	Power protection for important equipment
-Wireless Access Points	3	Office Wi-Fi coverage
-NAS Storage	1	Centralized storage and backup
-External Backup Drives	2	Offline backup copies
-Monitors	20	Dedicated display for each workstation
+Desktop Computers – 20 Units
+
+Desktop computers will serve as the primary workstations for all employees. Each employee will have a dedicated computer for performing daily tasks related to their department.
+
+Business Laptops – 5 Units
+
+Business laptops will be assigned primarily for IT administration, troubleshooting, meetings, presentations, and situations where mobility is required.
+
+Server – 1 Unit
+
+The server will provide centralized services and support internal workloads. It may be used for file sharing, user management, application services, and other company resources.
+
+Router – 1 Unit
+
+The router will manage network traffic and provide connectivity between the company's internal network and the internet.
+
+Managed Switch – 1 Unit
+
+The managed switch will provide wired network connectivity for computers, servers, printers, and other network devices. It will also allow the IT department to manage and monitor network connections.
+
+Network Printers – 2 Units
+
+Two network printers will be provided for shared use among employees and departments, reducing the need for individual printers at every workstation.
+
+UPS – 4 Units
+
+Uninterruptible Power Supply (UPS) units will provide power protection for important IT equipment. They will help protect devices from sudden power interruptions and voltage fluctuations.
+
+Wireless Access Points – 3 Units
+
+Three wireless access points will provide Wi-Fi coverage throughout the office. They will allow employees to connect authorized laptops and mobile devices to the company's wireless network.
+
+NAS Storage – 1 Unit
+
+The Network Attached Storage (NAS) device will provide centralized storage for company files and backup data.
+
+External Backup Drives – 2 Units
+
+Two external backup drives will be used to maintain offline copies of important company data. Keeping offline backups provides additional protection in case of hardware failure, malware, or other incidents.
+
+Monitors – 20 Units
+
+Each desktop workstation will have a dedicated monitor to provide employees with a complete and comfortable workstation setup.
+
 Software Inventory Summary
-The software environment is designed to support normal office work, system administration, software development, and basic security.
 
-Software	Purpose
-Windows 11 Pro	Main operating system for employee computers
-Ubuntu Server	Server operating system
-Microsoft Office	Documents, spreadsheets, and presentations
-Visual Studio Code	Programming and configuration editing
-Git	Version control
-GitHub Desktop	Git repository management
-VirtualBox	Virtual machine testing
-Google Chrome	Web browsing and web-based services
-Microsoft Defender	Endpoint protection
-AnyDesk	Authorized remote support
-7-Zip	File compression and extraction
-Network Inventory Summary
-The planned network uses the following equipment:
+The software environment is designed to support normal office operations, system administration, software development, communication, and basic security.
 
-Network Equipment	Quantity	Purpose
-ISP Modem / ONT	1	Internet connection
-Business Router	1	Routing and DHCP
-Firewall	1	Network security
-Managed Switch	1	Connects wired devices
-Wireless Access Points	3	Wireless connectivity
-Patch Panel	1	Organized network cabling
-CAT6 Cables	2 boxes	Network connections
-RJ45 Connectors	100 pcs	Ethernet cable termination
-The network is designed so that the internet connection passes through the ISP modem, router, and firewall before reaching the internal network.
+Operating System
 
-Network Diagram
-The network topology follows this basic structure:
+An appropriate operating system will be installed on all desktop computers and laptops. A suitable server operating system will also be installed on the company's server to support centralized services.
 
-Internet
-   │
-   ▼
-ISP Modem
-   │
-   ▼
-Router
-   │
-   ▼
-Firewall
-   │
-   ▼
-Managed Switch
-   ├── Server
-   ├── Network Printers
-   ├── Wireless Access Points
-   │
-   ├── IT Department
-   ├── HR Department
-   ├── Finance Department
-   └── Sales Department
+Office Productivity Software
 
-Challenges Encountered
+Office productivity software will be provided for word processing, spreadsheets, presentations, document creation, and other administrative tasks.
 
-One of the challenges encountered during the activity was determining the appropriate hardware requirements for the proposed company environment.
+Web Browsers
 
-Another challenge was organizing the network topology in a way that clearly showed the relationship between the internet connection, router, firewall, switches, servers, workstations, and wireless devices.
+Modern and supported web browsers will be installed for accessing websites, web applications, cloud services, and other online resources.
 
-Selecting appropriate software was also challenging because the infrastructure needs to consider functionality, security, compatibility, and future maintenance.
+Antivirus and Endpoint Security
 
-Creating the network diagram also required careful organization so that the connections between the different components could be easily understood.
+Antivirus and endpoint security software will be installed to protect company computers against malware, viruses, ransomware, and other security threats.
 
-Reflection
+Development Tools
 
-This activity helped me understand that designing an enterprise infrastructure requires more than simply choosing computers and network equipment. Each component has a specific purpose and needs to work together with the other parts of the infrastructure.
+Development tools and programming environments will be installed on computers used by the IT department to support software development and programming activities.
 
-I learned how hardware inventory and software inventory can be used to organize the requirements of a company. Creating the inventory made it easier to identify the equipment and software needed to support employees, servers, network connectivity, security, and data storage.
+Database Management Software
 
-The network diagram also helped me understand how different network components are connected. The router, firewall, switches, servers, workstations, and wireless access points each have different roles in the network. Creating the topology made the overall infrastructure easier to visualize.
+Database management tools will be used by authorized IT personnel for creating, managing, and maintaining databases required by the company.
 
-Another important lesson from this activity was the importance of planning for scalability. A company may grow over time, so the infrastructure should have enough capacity to support additional users, devices, and services.
+Backup Software
 
-Overall, this activity improved my understanding of enterprise infrastructure planning and system administration. It also helped me practice documenting technical requirements in a way that can be understood by other people who may be involved in maintaining or expanding the company's IT infrastructure.
+Backup software will be used to automate and manage regular backups of important company files and systems.
 
-References
-System Administration Sources
+Network Monitoring Tools
 
-See:
+Network monitoring tools will help the IT department monitor network performance, identify connectivity problems, and detect potential issues.
 
-references/system-administration-sources.md
-Network Design Sources
+Remote Administration Tools
 
-See:
+Authorized IT personnel will use remote administration tools to troubleshoot and manage company computers and other systems when necessary.
 
-references/network-design-sources.md
+File Sharing Services
 
-Additional references used for the activity include:
+File-sharing services will provide employees with centralized access to authorized company documents and shared resources.
 
-Ubuntu Server Documentation
-Oracle VirtualBox Documentation
-Microsoft Windows Documentation
-Draw.io Documentation
+Communication and Collaboration Tools
+
+Communication and collaboration software will support employee communication, online meetings, file sharing, and teamwork.
+
+Overall, the proposed hardware and software infrastructure is designed to provide ABC Startup Solutions with a reliable foundation for its daily operations while also allowing the company to expand its IT environment as the organization grows.
+
